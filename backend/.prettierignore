@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+coverage/
+
+# logs
+*.log
+
+# environment files
+.env
+.env.*
+
+# lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# compiled files
+*.min.js
+*.bundle.js
+
+# generated
+.next/
+out/
+
+# misc
+.DS_Store
